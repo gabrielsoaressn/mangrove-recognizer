@@ -1,0 +1,6 @@
+2025-10-06 00:47:24,586 - INFO - Iniciando processo de pré-processamento...
+2025-10-06 00:47:24,586 - INFO - Argumentos: Namespace(input='data/raw/', output='data/preprocessed/', report='results/', gaussian_kernel=5, clahe_clip=2.0, apply_median=False, verbose=True)
+2025-10-06 00:50:14,944 - INFO - Iniciando processo de pré-processamento...
+2025-10-06 00:50:14,944 - INFO - Argumentos: Namespace(input='data/raw/', output='data/preprocessed/', report='results/', gaussian_kernel=5, clahe_clip=2.0, apply_median=False, verbose=True)
+2025-10-06 00:53:55,024 - INFO - Relatório salvo em: results/preprocessing_report.html
+2025-10-06 00:53:55,083 - INFO - Pré-processamento concluído.

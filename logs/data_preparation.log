@@ -1,0 +1,20 @@
+2025-10-06 01:36:06,765 - INFO - Iniciando a preparação dos dados...
+2025-10-06 01:36:06,789 - INFO - Carregado 125 coordenadas de data/coordinates.csv
+2025-10-06 01:38:10,921 - INFO - Iniciando a preparação dos dados...
+2025-10-06 01:38:10,925 - INFO - Carregado 125 coordenadas de data/coordinates.csv
+2025-10-06 01:38:10,927 - INFO - Mapeamento de classes: {'I': 0, 'V': 1, 'II': 2, 'IV': 3, 'III': 4}
+2025-10-06 01:38:16,027 - ERROR - Nenhum patch foi extraído. Verifique os caminhos, o conteúdo do CSV e o georreferenciamento das imagens.
+2025-10-06 01:40:25,748 - INFO - Iniciando a preparação dos dados...
+2025-10-06 01:40:25,753 - INFO - Carregado 125 coordenadas de data/coordinates.csv
+2025-10-06 01:40:25,754 - INFO - Mapeamento de classes: {'I': 0, 'V': 1, 'II': 2, 'IV': 3, 'III': 4}
+2025-10-06 01:40:30,282 - ERROR - Nenhum patch foi extraído. Verifique os caminhos, o conteúdo do CSV e o georreferenciamento das imagens.
+2025-10-06 01:50:21,436 - INFO - Iniciando a preparação dos dados com a lógica de correspondência 1-para-1...
+2025-10-06 01:50:21,445 - INFO - Carregado 125 coordenadas de data/coordinates.csv
+2025-10-06 01:50:21,446 - INFO - Encontrado 125 imagens.
+2025-10-06 01:50:21,447 - INFO - Mapeamento de classes: {'I': 0, 'V': 1, 'II': 2, 'IV': 3, 'III': 4}
+2025-10-06 01:50:26,667 - INFO - Total de patches extraídos e aumentados: 750
+2025-10-06 01:50:26,687 - INFO - Tamanho do conjunto de treino: 524
+2025-10-06 01:50:26,687 - INFO - Tamanho do conjunto de validação: 113
+2025-10-06 01:50:26,687 - INFO - Tamanho do conjunto de teste: 113
+2025-10-06 01:50:27,044 - INFO - Splits de dados salvos em data/splits/
+2025-10-06 01:50:27,051 - INFO - Mapeamento de classes salvo em data/splits/class_map.csv

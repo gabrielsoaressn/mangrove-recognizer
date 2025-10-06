@@ -1,0 +1,88 @@
+2025-10-06 01:52:41,714 - INFO - --- Treinando Modelo Random Forest ---
+2025-10-06 01:52:41,726 - INFO - Iniciando o treinamento do Random Forest...
+2025-10-06 01:52:42,320 - INFO - Treinamento do Random Forest concluído.
+2025-10-06 01:52:42,426 - INFO - Modelo Random Forest salvo em models/random_forest.pkl
+2025-10-06 01:53:57,512 - INFO - --- Treinando Modelo CNN ---
+2025-10-06 01:53:57,878 - INFO - Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┓
+┃ Layer (type)                  ┃ Output Shape           ┃      Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━┩
+│ conv2d (Conv2D)               │ (None, 64, 64, 32)     │          896 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ batch_normalization           │ (None, 64, 64, 32)     │          128 │
+│ (BatchNormalization)          │                        │              │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ max_pooling2d (MaxPooling2D)  │ (None, 32, 32, 32)     │            0 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ dropout (Dropout)             │ (None, 32, 32, 32)     │            0 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ conv2d_1 (Conv2D)             │ (None, 32, 32, 64)     │       18,496 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ batch_normalization_1         │ (None, 32, 32, 64)     │          256 │
+│ (BatchNormalization)          │                        │              │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ max_pooling2d_1               │ (None, 16, 16, 64)     │            0 │
+│ (MaxPooling2D)                │                        │              │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ dropout_1 (Dropout)           │ (None, 16, 16, 64)     │            0 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ flatten (Flatten)             │ (None, 16384)          │            0 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ dense (Dense)                 │ (None, 128)            │    2,097,280 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ batch_normalization_2         │ (None, 128)            │          512 │
+│ (BatchNormalization)          │                        │              │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ dropout_2 (Dropout)           │ (None, 128)            │            0 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ dense_1 (Dense)               │ (None, 5)              │          645 │
+└───────────────────────────────┴────────────────────────┴──────────────┘
+ Total params: 2,118,213 (8.08 MB)
+ Trainable params: 2,117,765 (8.08 MB)
+ Non-trainable params: 448 (1.75 KB)
+
+2025-10-06 01:53:57,882 - INFO - Iniciando o treinamento da CNN...
+2025-10-06 01:54:05,490 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-10-06 02:00:37,502 - INFO - --- Treinando Modelo CNN ---
+2025-10-06 02:00:37,746 - INFO - Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┓
+┃ Layer (type)                  ┃ Output Shape           ┃      Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━┩
+│ conv2d (Conv2D)               │ (None, 64, 64, 32)     │          896 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ batch_normalization           │ (None, 64, 64, 32)     │          128 │
+│ (BatchNormalization)          │                        │              │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ max_pooling2d (MaxPooling2D)  │ (None, 32, 32, 32)     │            0 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ dropout (Dropout)             │ (None, 32, 32, 32)     │            0 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ conv2d_1 (Conv2D)             │ (None, 32, 32, 64)     │       18,496 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ batch_normalization_1         │ (None, 32, 32, 64)     │          256 │
+│ (BatchNormalization)          │                        │              │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ max_pooling2d_1               │ (None, 16, 16, 64)     │            0 │
+│ (MaxPooling2D)                │                        │              │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ dropout_1 (Dropout)           │ (None, 16, 16, 64)     │            0 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ flatten (Flatten)             │ (None, 16384)          │            0 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ dense (Dense)                 │ (None, 128)            │    2,097,280 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ batch_normalization_2         │ (None, 128)            │          512 │
+│ (BatchNormalization)          │                        │              │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ dropout_2 (Dropout)           │ (None, 128)            │            0 │
+├───────────────────────────────┼────────────────────────┼──────────────┤
+│ dense_1 (Dense)               │ (None, 5)              │          645 │
+└───────────────────────────────┴────────────────────────┴──────────────┘
+ Total params: 2,118,213 (8.08 MB)
+ Trainable params: 2,117,765 (8.08 MB)
+ Non-trainable params: 448 (1.75 KB)
+
+2025-10-06 02:00:37,750 - INFO - Iniciando o treinamento da CNN...
+2025-10-06 02:00:44,289 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-10-06 02:01:15,063 - INFO - Treinamento da CNN concluído.
+2025-10-06 02:01:15,340 - INFO - Curvas de aprendizado salvas em results/cnn_learning_curves.png

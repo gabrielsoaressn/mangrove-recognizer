@@ -1,0 +1,90 @@
+2025-10-06 01:40:11,205 - INFO - Iniciando extração de features...
+2025-10-06 01:40:11,206 - INFO - Processando split: train
+2025-10-06 01:40:11,206 - ERROR - Arquivo de split não encontrado: data/splits/train.npz. Pulando.
+2025-10-06 01:40:11,206 - INFO - Processando split: val
+2025-10-06 01:40:11,206 - ERROR - Arquivo de split não encontrado: data/splits/val.npz. Pulando.
+2025-10-06 01:40:11,207 - INFO - Processando split: test
+2025-10-06 01:40:11,207 - ERROR - Arquivo de split não encontrado: data/splits/test.npz. Pulando.
+2025-10-06 01:40:11,207 - INFO - Extração de features concluída.
+2025-10-06 01:51:35,535 - INFO - Iniciando extração de features...
+2025-10-06 01:51:35,535 - INFO - Processando split: train
+2025-10-06 01:51:41,348 - INFO - Features para o split 'train' salvas em data/features/features_train.csv
+2025-10-06 01:51:41,348 - INFO - Processando split: val
+2025-10-06 01:51:42,506 - INFO - Features para o split 'val' salvas em data/features/features_val.csv
+2025-10-06 01:51:42,507 - INFO - Processando split: test
+2025-10-06 01:51:43,603 - INFO - Features para o split 'test' salvas em data/features/features_test.csv
+2025-10-06 01:51:43,603 - INFO - Extração de features concluída.
+2025-10-06 02:00:09,238 - INFO - Iniciando extração de features...
+2025-10-06 02:00:09,238 - INFO - Processando split: train
+2025-10-06 02:00:14,987 - INFO - Features para o split 'train' salvas em data/features/features_train.csv
+2025-10-06 02:00:14,987 - INFO - Processando split: val
+2025-10-06 02:00:16,081 - INFO - Features para o split 'val' salvas em data/features/features_val.csv
+2025-10-06 02:00:16,081 - INFO - Processando split: test
+2025-10-06 02:00:17,172 - INFO - Features para o split 'test' salvas em data/features/features_test.csv
+2025-10-06 02:00:17,172 - INFO - Extração de features concluída.
+2025-10-06 02:02:09,188 - INFO - Avaliando modelo: models/random_forest.pkl
+2025-10-06 02:02:09,436 - INFO - Modelo RF detectado. Extraindo features do conjunto de teste...
+2025-10-06 02:02:10,703 - INFO - Acurácia no teste: 0.9292
+2025-10-06 02:02:10,704 - INFO - Relatório de Classificação:
+              precision    recall  f1-score   support
+
+           I       0.94      0.97      0.96        66
+           V       0.88      0.93      0.90        15
+          II       0.95      0.86      0.90        21
+          IV       0.50      0.33      0.40         3
+         III       1.00      1.00      1.00         8
+
+    accuracy                           0.93       113
+   macro avg       0.85      0.82      0.83       113
+weighted avg       0.93      0.93      0.93       113
+
+2025-10-06 02:04:50,999 - INFO - Avaliando modelo: models/random_forest.pkl
+2025-10-06 02:04:51,184 - INFO - Modelo RF detectado. Extraindo features do conjunto de teste...
+2025-10-06 02:04:52,346 - INFO - Acurácia no teste: 0.9292
+2025-10-06 02:04:52,346 - INFO - Relatório de Classificação:
+              precision    recall  f1-score   support
+
+           I       0.94      0.97      0.96        66
+           V       0.88      0.93      0.90        15
+          II       0.95      0.86      0.90        21
+          IV       0.50      0.33      0.40         3
+         III       1.00      1.00      1.00         8
+
+    accuracy                           0.93       113
+   macro avg       0.85      0.82      0.83       113
+weighted avg       0.93      0.93      0.93       113
+
+2025-10-06 02:06:07,272 - INFO - Avaliando modelo: models/random_forest.pkl
+2025-10-06 02:06:07,469 - INFO - Modelo RF detectado. Extraindo features do conjunto de teste...
+2025-10-06 02:06:08,736 - INFO - Acurácia no teste: 0.9292
+2025-10-06 02:06:08,736 - INFO - Relatório de Classificação:
+              precision    recall  f1-score   support
+
+           I       0.94      0.97      0.96        66
+           V       0.88      0.93      0.90        15
+          II       0.95      0.86      0.90        21
+          IV       0.50      0.33      0.40         3
+         III       1.00      1.00      1.00         8
+
+    accuracy                           0.93       113
+   macro avg       0.85      0.82      0.83       113
+weighted avg       0.93      0.93      0.93       113
+
+2025-10-06 02:06:09,334 - INFO - Relatório de avaliação salvo em results/evaluation_report_random_forest.html
+2025-10-06 02:07:33,947 - INFO - Avaliando modelo: models/cnn_model.h5
+2025-10-06 02:07:34,357 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-10-06 02:07:34,923 - INFO - Acurácia no teste: 0.5664
+2025-10-06 02:07:34,923 - INFO - Relatório de Classificação:
+              precision    recall  f1-score   support
+
+           I       0.60      0.92      0.73        66
+           V       0.33      0.20      0.25        15
+          II       0.00      0.00      0.00        21
+          IV       0.00      0.00      0.00         3
+         III       0.00      0.00      0.00         8
+
+    accuracy                           0.57       113
+   macro avg       0.19      0.22      0.20       113
+weighted avg       0.39      0.57      0.46       113
+
+2025-10-06 02:07:35,591 - INFO - Relatório de avaliação salvo em results/evaluation_report_cnn_model.html
