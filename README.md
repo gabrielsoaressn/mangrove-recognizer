@@ -105,6 +105,6 @@ Este projeto não seria possível sem o apoio e a colaboração fundamental do *
 Um agradecimento especial a:
 
 *   **Dra. Karol Borges**, por fornecer o dataset inicial, o conhecimento de domínio essencial sobre os macro-habitats e por propor o desafio que deu origem a este trabalho.
-*   **Mestras Jéssica Soubral e Amanda Pereira** e **Profª. Drª. Tacyana**, pelo apoio contínuo, discussões produtivas e por abrirem as portas do laboratório para esta parceria.
+*   **Mestras Jéssica Sobral e Amanda Pereira** e **Profª. Drª. Tacyana**, pelo apoio contínuo, discussões produtivas e por abrirem as portas do laboratório para esta parceria.
 
 A dedicação de vocês à pesquisa e conservação marinha é uma grande inspiração.
